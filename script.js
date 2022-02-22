@@ -29,6 +29,8 @@ for (let i = 0; i < tombol.length; i++) {
       const currentValue = parseInt(input.value);
       if (currentValue === 0) {
         input.value = tombol[i].innerText;
+      } else if (angkaKedua > 0) {
+        input.value = tombol[i].innerText;
       } else {
         input.value = currentValue + tombol[i].innerText;
       }
