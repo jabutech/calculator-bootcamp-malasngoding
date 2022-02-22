@@ -38,7 +38,7 @@ for (let i = 0; i < tombol.length; i++) {
 
 reset.addEventListener("click", function () {
   operasi = "";
-  angkaPertama - 0;
+  angkaPertama = 0;
   angkaKedua = 0;
   input.value = 0;
 });
